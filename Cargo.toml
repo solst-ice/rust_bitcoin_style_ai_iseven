@@ -1,0 +1,21 @@
+[package]
+name = "rust-bitcoin-style-ai-iseven"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A joke library that uses Claude AI to check if a number is even, Bitcoin-style"
+license = "MIT"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+hex = "0.4"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+crossterm = "0.27"
+ratatui = "0.26"
+
+[dev-dependencies]
+dotenv = "0.15"
