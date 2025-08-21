@@ -1,13 +1,13 @@
 # Rust Bitcoin-Style AI is-even
 
-A 🔥 BLAZING FAST 🔥 Rust library that uses Claude AI to check if a number is even, then returns the SHA256 hash of the response (Bitcoint Style).
+A 🔥 BLAZING FAST 🔥 Rust library that uses Claude AI to check if a number is even, then returns the SHA256 hash of the response (Bitcoin Style).
 
 whole new architecture
 
 ## Features
 
 - Uses the latest and greatest Claude Opus 4.1 model (claude-opus-4-1-20250805) - Anthropic's most powerful AI model
-- Bitcoint Style: Returns SHA256 hash of "True" or "False" 
+- Bitcoin Style: Returns SHA256 hash of "True" or "False" 
 - Both synchronous and asynchronous implementations
 - Beautiful TUI in examples
 
